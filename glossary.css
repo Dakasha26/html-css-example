@@ -1,0 +1,177 @@
+/* Стили для таблицы */
+table li{
+  list-style-type: none;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  text-indent: 10px;
+}
+
+table a{
+  color: black;
+}
+
+table a:hover{
+  color: black;
+  text-decoration: none !important;
+}
+
+@media screen and (min-width: 1280px){
+  .phone{
+    display: none;
+  }
+
+  table{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .left li:hover{
+    background: #b0b0b0;
+  }
+
+  .top{
+    border: 0 !important; 
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .left{
+    width: 20%;
+    vertical-align: top;
+  }
+
+  .right{
+    width: 80%;
+    border-left: 1px solid black;
+  }
+
+  .def{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  h4{
+    display: block;
+    padding-left: 30px;
+  }
+
+  td{
+    text-align: left;
+  }
+
+  th{
+    text-align: center;
+  }
+
+  .fix{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1283px){
+  .phone{
+    display: none;
+  }
+
+  table{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .left li:hover{
+    background: #b0b0b0;
+  }
+
+  .top{
+    border: 0 !important; 
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .left{
+    width: 20%;
+    vertical-align: top;
+  }
+
+  .right{
+    width: 80%;
+    border-left: 1px solid black;
+  }
+
+  .def{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  .fix{
+    display: block;
+  }
+
+  h4{
+    display: block;
+    padding-left: 30px;
+  }
+
+  td{
+    text-align: left;
+  }
+
+  th{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  a:hover{
+  color: black;
+  text-decoration: none !important;
+  }
+
+  .first{
+    padding-top: 30px;
+  }
+
+  .phone{
+    display: block;
+  }
+
+  .phone .list li{
+    color: black;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .phone .list{
+    display: block;
+  }
+
+  .phone .list li:hover{
+    text-decoration: none;
+    color: black;
+    background: #b0b0b0;
+  }
+
+  table{
+   display: none;
+  }
+
+  .def{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+
+  h4{
+    display: block;
+    padding-left: 30px;
+  }
+}

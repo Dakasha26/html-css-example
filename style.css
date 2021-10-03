@@ -1,0 +1,550 @@
+*{
+	padding: 0;
+	margin: 0;
+  font-family: Arial;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+body{
+	background: #f0f0f0;
+}
+
+@media screen and (min-width: 1280px){
+.wrapper{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.go-top{
+  position: fixed;
+  display: table;
+  background: #aaaaaa;
+  opacity: 0.5;
+  margin-left: 0;
+  margin-top: 0;
+  float: left;
+  width: 80px;
+  height: 100%; 
+}
+
+.go-top p{
+  display: table-cell;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.go-top p:hover{
+  color: white;
+}
+
+.go-top:hover{
+  background: black;
+  opacity: 0.7;
+}
+
+
+/* Шапка сайта */
+header{
+	background: black;
+	color: white;
+	height: 150px;
+}
+
+header a, header a:hover, header a:visited, header a:active{
+  text-decoration: none;
+  color: white;
+}
+
+header h1{
+	padding-top: 35px;
+	padding-left: 20px;
+	font-family: Verdana;
+}
+
+header h2{
+	margin-top: 10px;
+	padding-left: 50px;
+	font-family: Times New Roman;
+}
+
+/* Навигация сайта */
+nav{
+	margin-top: 10px;
+	background: black;
+	color: white;
+	display: block;
+	width: 17.578125%;
+	height: 900px;
+	float: left;
+}
+
+.nav-but{
+  display: none;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;
+}
+
+nav h2{
+	text-align: center;
+	margin-top: 20px;
+  font-family: Times New Roman;
+}
+
+nav h2.further{
+  margin-top: 50px;
+}
+
+nav a{
+	color: white;
+	outline: none;
+}
+
+/* Блок информации */
+.main-img{
+  display: block;
+  width: 750px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.sign{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+main{
+	margin-top: 10px;
+	background: #ffffff;
+	float: right;
+	display: block;
+	width: 82.421875%;
+	height: 100%;
+}
+
+main .image{
+  display: block;
+  margin: 0 auto;
+}
+
+main h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+main h3{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+main p{
+  font-family: Arial;
+  text-indent: 1.5em;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+main ol{
+  display: block;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.slider-nav{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.slider-nav a{
+  color: black;
+  font-family: Times New Roman;
+  font-size: 50px;
+}
+.slider-nav a:hover{
+  text-decoration: underline;
+}
+
+
+/* Подвал */
+footer{
+  position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 1280px;
+	height: 60px;
+	background: black;
+	clear: left;
+}
+
+footer p{
+  position: absolute;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1283px){
+.wrapper{
+	width: 1024px;;
+	height: auto;
+	margin: 0 auto;
+}
+
+.go-top{
+  position: fixed;
+  display: table;
+  background: #aaaaaa;
+  opacity: 0.5;
+  margin-top: 0;
+  float: right !important;
+  margin-right: 0 !important;
+  width: 80px;
+  height: 100%; 
+}
+
+.go-top p{
+  display: table-cell;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.go-top p:hover{
+  color: white;
+}
+
+.go-top:hover{
+  background: black;
+  opacity: 0.7;
+}
+
+/* Шапка сайта */
+header{
+	background: black;
+	color: white;
+	height: 130px;
+}
+
+header a, header a:hover, header a:visited, header a:active{
+  text-decoration: none;
+  color: white;
+}
+
+header h1{
+	padding-top: 35px;
+	padding-left: 20px;
+	font-family: Verdana;
+}
+
+header h2{
+	margin-top: 10px;
+	padding-left: 50px;
+	font-family: Times New Roman;
+}
+
+.nav-but{
+  display: none;
+}
+
+/* Навигация сайта */
+nav{
+	margin-top: 10px;
+	background: black;
+	color: white;
+	display: block;
+	width: 17.578125%;
+	height: 900px;
+	float: left;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin: 0 auto;
+  font-size: 14px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+nav h2{
+	text-align: left;
+	margin-top: 20px;
+  font-family: Times New Roman;
+  font-size: 19px;
+  padding-left: 20px;
+}
+
+nav h2.further{
+  margin-top: 50px;
+}
+
+nav a{
+	color: white;
+	outline: none;
+}
+
+/* Блок информации */
+.main-img{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.sign{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+main{
+	margin-top: 10px;
+	background: #ffffff;
+	float: right;
+	display: block;
+	width: 82.421875%;
+	height: 100%;
+}
+
+main .image{
+  display: block;
+  margin: 0 auto;
+}
+
+main h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+main h3{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+main p{
+  font-family: Arial;
+  text-indent: 1.5em;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+main ol{
+  display: block;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+
+/* Подвал */
+footer{
+  position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 1024px;
+	height: 60px;
+	background: black;
+	clear: left;
+}
+
+footer p{
+  position: absolute;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 1023px){
+body{
+  background: white;
+  position: relative;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.go-top{
+  display: none;
+}
+
+/* Шапка сайта */
+header{
+	background: black;
+	color: white;
+	height: 70px;
+}
+
+header a, header a:hover, header a:visited, header a:active{
+  text-decoration: none;
+  color: white;
+}
+
+header h1{
+	padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+	font-family: Verdana;
+}
+
+header h2{
+  display: none;
+}
+
+/* Навигация сайта */
+nav{
+	background: black;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	height: 50px !important;
+}
+
+.nav-but{
+  margin: 0 auto;
+  display: block;
+  width: 50px;
+}
+
+nav ul{
+  margin: 0 auto;
+  width: 80%;
+  display: none;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin: 0 auto;
+  font-size: 14px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+nav h2{
+  display: none;
+	text-align: left;
+	margin-top: 20px;
+  font-family: Times New Roman;
+  font-size: 19px;
+  padding-left: 20px;
+}
+
+nav h2.further{
+  margin-top: 50px;
+}
+
+nav a{
+	color: black;
+	outline: none;
+}
+
+/* Блок информации */
+main table{
+  width: 1200px;
+}
+
+.main-img{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.sign{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+main{
+	margin-top: 10px;
+	background: #ffffff;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+main .image{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+main h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+main h3{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+main p{
+  font-family: Arial;
+  text-indent: 1.5em;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+main ol{
+  display: block;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.slider{
+  margin-top: 20px;
+}
+
+/* Подвал */
+footer{
+  text-align: center;
+  font-size: 12px;
+  color: white;
+	margin: 0 auto;
+	padding-top: 10px;
+  margin-bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: black;
+  display: inline-block;
+  position: absolute !important;
+}
+footer p{
+  position: absolute;
+  margin-bottom: 10px;
+}
+}
